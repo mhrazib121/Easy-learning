@@ -2,7 +2,7 @@ import React from 'react';
 import { Card, Col } from 'react-bootstrap';
 
 const Course = (props) => {
-    const {img, serviceName, by, fee} = props.service;
+    const {img, serviceName, tutorName, fee} = props.service;
     return (
         <div>
             <Col className="shadow-lg">
@@ -11,8 +11,9 @@ const Course = (props) => {
                     <Card.Body>
                         <Card.Title>{serviceName}</Card.Title>
                         <div>
-                            <p>{by}</p>
-                            <h4>${fee}</h4>
+                            <p>Course Tutor: <span className="text-danger">{tutorName} </span></p>
+                            <h4> Course Fee: ${fee}</h4>
+                            <button className="bg-success border-0 rounded-3 p-1 text-white">Enroll Now</button>
                         </div>
                     </Card.Body>
                 </Card>
