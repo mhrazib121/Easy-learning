@@ -1,6 +1,7 @@
 import React from 'react';
 import { Card, Col, Row } from 'react-bootstrap';
 import useCategories from '../../Hooks/useCategories';
+import './Category.css'
 
 const Category = () => {
     const [Categories] = useCategories();
@@ -13,7 +14,7 @@ const Category = () => {
                         <div key={singleCategory.id}>
                             <Col className="shadow-lg">
                                 <Card className="img-overflow">
-                                    <Card.Img className="img-hover" variant="top" src={singleCategory.img} />
+                                    <Card.Img className="hover-img" variant="top" src={singleCategory.img} />
                                     <Card.Body>
                                         <Card.Title>{singleCategory.name}</Card.Title>
                                     </Card.Body>

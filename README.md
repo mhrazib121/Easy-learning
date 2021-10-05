@@ -1,6 +1,6 @@
 # Welcome to our Easy Learning platform
 
-To explreo your knowledge, please our website [Easy Learning](https://github.com/facebook/create-react-app).
+To explreo your knowledge, please our website [Easy Learning](https://easy-learning-01a712.netlify.app/).
 
 
 ### Our Course are desingn from basic to advance

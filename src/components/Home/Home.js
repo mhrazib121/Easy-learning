@@ -7,6 +7,7 @@ const Home = () => {
     const [services] = useServices();
     return (
         <div className="container">
+            {/* Top Section  */}
             <div className="d-flex align-items-center">
                 <img
                     className="d-block w-25"
@@ -18,15 +19,33 @@ const Home = () => {
                     <p>"Easy learnig always try to provide best service to explore your learning abality. We will ensure great tutor with excillent technic to provide lesson"</p>
                 </div>
             </div>
+            {/* Service Section  */}
             <div className="mt-5">
                 <h1>A broad selection of services</h1>
                 <p>Choose your best course that your need from 500+ course, and improve your knowledge with us.</p>
             </div>
             <Row xs={1} md={3} className="g-5 mb-5 p-4">
                 {
-                    services.map(service => <Course key={service.id} service={service}></Course>)
+                    services.slice(0,4).map(service => <Course key={service.id} service={service}></Course>)
                 }
             </Row>
+
+            {/* Bottom Section  */}
+
+            <div className="d-flex align-items-center">
+
+            <div className=" text-center p-5">
+                    <h3>Transform your life through education</h3>
+                    <p>"Learners around the world are launching new careers, advancing in their fields, and enriching their lives."</p>
+                </div>
+
+                <img
+                    className="d-block w-50"
+                    src="https://elearningindustry.com/wp-content/uploads/2019/10/how-design-thinking-transforming-learning-experience-free-ebook.jpg"
+                    alt="First slide"
+                />
+                
+            </div>
         </div>
     );
 };
