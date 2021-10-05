@@ -12,13 +12,11 @@
     {
         "id": 3,
         "img": "https://www.pcc.edu/harts/wp-content/uploads/sites/20/2018/10/counseling-clipart-humanities-social-science-1.jpg",
-        "name": "Humanities",
-        
-        "fee": 800000
+        "name": "Humanities"
     },
     {
         "id": 4,
-        "img": "https://leverageedu.com/blog/wp-content/uploads/2019/09/Electrical.png",
+        "img": "https://akm-img-a-in.tosshub.com/indiatoday/images/story/201810/stockvault-person-studying-and-learning---knowledge-concept178241_0-647x363.jpeg?0LocAW2E2gIBzZp0oZSWzxmQTvAPhN_v",
         "name": "Diploma"
     }
 ]
