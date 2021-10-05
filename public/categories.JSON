@@ -1,0 +1,24 @@
+[
+    {
+        "id": 1,
+        "img": "https://img.freepik.com/free-vector/science-word-theme_23-2148540555.jpg?size=626&ext=jpg",
+        "name": "Science"
+    },
+    {
+        "id": 2,
+        "img": "https://igu.ac.in/2021/wp-content/uploads/comm-768x576.jpg",
+        "name": "Commerce"
+    },
+    {
+        "id": 3,
+        "img": "https://www.pcc.edu/harts/wp-content/uploads/sites/20/2018/10/counseling-clipart-humanities-social-science-1.jpg",
+        "name": "Humanities",
+        
+        "fee": 800000
+    },
+    {
+        "id": 4,
+        "img": "https://leverageedu.com/blog/wp-content/uploads/2019/09/Electrical.png",
+        "name": "Diploma"
+    }
+]
