@@ -25,7 +25,7 @@ const AboutUs = () => {
                 </div>
                 <div className="bg-info p-3">
                     <h2>Our blog</h2>
-                    <h5>Want to know what we’ve been up to lately? Check out our Easy learning blog to get more information, ideas and projects, and more.</h5>
+                    <h5>If you want to up-to-date and want to gain more knowledge, you can check our blog section. We update our blog section every day with educative things. </h5>
                 </div>
             </div>
         </div>
