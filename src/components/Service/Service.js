@@ -5,6 +5,7 @@ import Course from '../Course/Course';
 
 
 const Service = () => {
+    // Use Hook
     const [services] = useServices();
     return (
         <div>

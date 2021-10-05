@@ -4,6 +4,7 @@ import useCategories from '../../Hooks/useCategories';
 import './Category.css'
 
 const Category = () => {
+    // Use Hook
     const [Categories] = useCategories();
     return (
         <div className="container mt-5">

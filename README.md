@@ -10,4 +10,3 @@ To explreo your knowledge, please our website [Easy Learning](https://easy-learn
 
 
 ### We will take class on online and weekly "Quick Test" and monthly "Over View Test" .
-
